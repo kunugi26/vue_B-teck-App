@@ -1,6 +1,9 @@
 <template>
-  <article class="basic-form">
-    <h2>お客様の情報を入力してください</h2>
+  
+  <article class="form">
+    <header>
+      <h1>お客様の情報を入力してください</h1>
+    </header>
     <section>
       <form class="" action="" method="post">
         <!-- 性別 -->
@@ -42,5 +45,10 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
+h1 {
+  &::before {
+    content: "\f2bb";
+  }
+}
 </style>
