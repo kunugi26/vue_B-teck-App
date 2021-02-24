@@ -21,3 +21,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# VSCodeのプロジェクトマネージャー系
+*.code-workspace
